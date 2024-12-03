@@ -1,0 +1,9 @@
+// pages/index.js
+export default function Home() {
+    return (
+      <div>
+        <h1> hi l!</h1>
+        <p> hello Next.js iyo Vercel.</p>
+      </div>
+    );
+  }

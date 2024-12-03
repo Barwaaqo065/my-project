@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 2rem;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            flex: 1 1 calc(33.333% - 1rem);
+            box-sizing: border-box;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        @media (max-width: 768px) {
+            .project {
+                flex: 1 1 calc(100% - 1rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio <b></b></h1>
+        <nav>
+            <a href="p.jpg">About</a>
+            <a href="#skills">skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello  I'm a student passionate about web development and design. I enjoy creating websites and graphic design .</p>
+    </section>
+
+    <section id="skills" >
+        <h2>My Skills</h2>
+            <div class="skills">
+                <p>i possess skills that include graphic design and website design.</p>
+            
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: barwaqo@gmailosman.com</p>
+    </section>
+    <footer>
+        <p>barwaqo; 2024 My Portfolio</p>
+        
+        <b"></b>
+    </footer>
+</body>
+</html>
